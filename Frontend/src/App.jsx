@@ -23,7 +23,7 @@ const App = () => {
   }, [])
 
   async function reviewcode() {
-    const res = await axios.post('https://optima-lwip.onrender.com', { code });
+    const res = await axios.post('http://localhost:3000/ai/get_review', { code });
     console.log(res)
 
     setreview(res.data)
