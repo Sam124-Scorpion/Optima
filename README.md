@@ -125,44 +125,7 @@ The AI reviewer analyzes code for:
 - ✅ **DRY & SOLID Principles**: Code duplication reduction and modular design
 - ✅ **Documentation**: Meaningful comments and docstrings
 
-## 🔒 Security Notes
 
-- Never commit your `.env` file to version control
-- Keep your Google Gemini API key secure
-- The `.env` file is already included in `.gitignore`
-
-## 🐛 Troubleshooting
-
-### Backend Issues
-- **Port already in use**: Change the port in `Backend/server.js`
-- **API key error**: Verify your `.env` file has the correct `GOOGLE_GEMINI_KEY`
-- **CORS errors**: Ensure CORS is properly configured in `Backend/src/app.js`
-
-### Frontend Issues
-- **Cannot connect to backend**: Verify the backend is running on port 3000
-- **Build errors**: Clear `node_modules` and reinstall dependencies
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🙏 Acknowledgments
-
-- **Google Gemini AI** for providing the powerful AI model
-- **React** and **Express** communities for excellent documentation
-- All contributors who help improve this project
-
-## 📧 Support
 
 For issues, questions, or suggestions, please open an issue on the GitHub repository.
 
