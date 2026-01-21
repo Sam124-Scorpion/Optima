@@ -67,7 +67,7 @@ const App = () => {
         <div className='left'>
           <div className="code-section-header">
             <h2 className="section-title">
-              <span className="section-icon">📝</span>
+              <span className="section-icon"></span>
               Your Code or Question
             </h2>
           </div>
@@ -101,14 +101,14 @@ const App = () => {
               </>
             ) : (
               <>
-                <span className="btn-icon">✨</span>
+                <span className="btn-icon"></span>
                 <span>Review Code or Ask Question</span>
               </>
             )}
           </button>
           {error && (
             <div className="error-message">
-              <span className="error-icon">⚠️</span>
+              <span className="error-icon"></span>
               {error}
             </div>
           )}
@@ -117,7 +117,7 @@ const App = () => {
         <div className='right'>
           <div className="review-section-header">
             <h2 className="section-title">
-              <span className="section-icon">💡</span>
+              <span className="section-icon"></span>
               AI Review or Answer
             </h2>
           </div>
@@ -135,7 +135,7 @@ const App = () => {
               </Markdown>
             ) : (
               <div className="empty-state">
-                <div className="empty-icon">👈</div>
+                <div className="empty-icon"></div>
                 <p className="empty-text">Write your code or ask a question and click "Review" or "Ask" to get AI-powered feedback!</p>
               </div>
             )}
