@@ -54,7 +54,7 @@ const App = () => {
       <header className="app-header">
         <div className="header-content">
           <h1 className="main-title">
-            <span className="title-icon">🤖</span>
+            <span className="title-icon"></span>
             <span className="title-text">
               <span className="title-main">AI Code Reviewer & Bot Assistant</span>
               <span className="title-subtitle">Intelligent Code Analysis, Feedback & Question Answering</span>
