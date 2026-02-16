@@ -1,8 +1,8 @@
-# AI Code Reviewer & Bot Assistant
+### AI Code Reviewer & Bot Assistant
 
 An intelligent, AI-powered code review tool that provides comprehensive code analysis, optimization suggestions, and best practice recommendations. Built with Google Gemini AI, this application helps developers write cleaner, more efficient, and maintainable code.
 
-## Features
+### Features
 
 - **Intelligent Code Analysis**: Get detailed reviews of your code with expert-level insights
 - **Performance Optimization**: Identify bottlenecks and suggest efficiency improvements
@@ -14,7 +14,7 @@ An intelligent, AI-powered code review tool that provides comprehensive code ana
 - **Error Handling**: Comprehensive error detection and bug identification
 - **Scalability Advice**: Get suggestions for making code adaptable for future growth
 
-## Tech Stack
+### Tech Stack
 
 ### Frontend
 - **React 19** - UI framework
