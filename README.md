@@ -1,8 +1,8 @@
-# 🤖 AI Code Reviewer & Bot Assistant
+#AI Code Reviewer & Bot Assistant
 
 An intelligent, AI-powered code review tool that provides comprehensive code analysis, optimization suggestions, and best practice recommendations. Built with Google Gemini AI, this application helps developers write cleaner, more efficient, and maintainable code.
 
-## ✨ Features
+##Features
 
 - **Intelligent Code Analysis**: Get detailed reviews of your code with expert-level insights
 - **Performance Optimization**: Identify bottlenecks and suggest efficiency improvements
@@ -14,7 +14,7 @@ An intelligent, AI-powered code review tool that provides comprehensive code ana
 - **Error Handling**: Comprehensive error detection and bug identification
 - **Scalability Advice**: Get suggestions for making code adaptable for future growth
 
-## 🛠️ Tech Stack
+##Tech Stack
 
 ### Frontend
 - **React 19** - UI framework
@@ -30,14 +30,14 @@ An intelligent, AI-powered code review tool that provides comprehensive code ana
 - **CORS** - Cross-origin resource sharing
 - **dotenv** - Environment variable management
 
-## 📋 Prerequisites
+##Prerequisites
 
 Before you begin, ensure you have the following installed:
 - **Node.js** (v16 or higher)
 - **npm** (v7 or higher) or **yarn**
 - **Google Gemini API Key** ([Get one here](https://makersuite.google.com/app/apikey))
 
-## 🚀 Installation
+##Installation
 
 1. **Clone the repository**
    ```bash
@@ -57,7 +57,7 @@ Before you begin, ensure you have the following installed:
    npm install
    ```
 
-## ⚙️ Configuration
+## Configuration
 
 1. **Backend Environment Setup**
    
@@ -76,7 +76,7 @@ Before you begin, ensure you have the following installed:
    
    The frontend is configured to connect to `http://localhost:3000` by default. If you need to change the backend URL, update the API endpoint in `Frontend/src/App.jsx`.
 
-## 🎯 Usage
+##Usage
 
 ### Starting the Backend Server
 
@@ -110,20 +110,20 @@ The frontend will be available at `http://localhost:5173` (or the port Vite assi
    - Refactored code examples
 
 
-## 🎨 Features in Detail
+## Features in Detail
 
 ### Code Review Capabilities
 
 The AI reviewer analyzes code for:
-- ✅ **Code Quality**: Clean, maintainable, and well-structured code
-- ✅ **Best Practices**: Industry-standard coding practices
-- ✅ **Performance**: Execution time and resource usage optimization
-- ✅ **Error Detection**: Potential bugs, security risks, and logical flaws
-- ✅ **Scalability**: Adaptability for future growth
-- ✅ **Readability**: Code clarity and maintainability
-- ✅ **Security**: Common vulnerabilities (SQL injection, XSS, CSRF)
-- ✅ **DRY & SOLID Principles**: Code duplication reduction and modular design
-- ✅ **Documentation**: Meaningful comments and docstrings
+- **Code Quality**: Clean, maintainable, and well-structured code
+- **Best Practices**: Industry-standard coding practices
+- **Performance**: Execution time and resource usage optimization
+- **Error Detection**: Potential bugs, security risks, and logical flaws
+- **Scalability**: Adaptability for future growth
+- **Readability**: Code clarity and maintainability
+- **Security**: Common vulnerabilities (SQL injection, XSS, CSRF)
+- **DRY & SOLID Principles**: Code duplication reduction and modular design
+- **Documentation**: Meaningful comments and docstrings
 
 
 
